@@ -28,8 +28,6 @@ while True:
         continue
     if len(palavra) != 5:
         input('Palavra invalida tente novamente\nAperte enter para retornar...')
-        erro = 1
-    if erro == 1:
         continue
     else:
         for n in range(0,5):
